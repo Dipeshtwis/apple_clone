@@ -5,6 +5,10 @@ padding: 0;
 text-decoration: none;
 }
 
+body {
+	font-family: "Lato", sans-serif;
+}
+
 main {
 	width: 100%;
 	margin:0 auto;
@@ -16,23 +20,100 @@ section {
 	background-size: cover;
     background-position: bottom;
     position: relative;
-	border :1px solid green;
-	height: 800px;
+	height: 700px;
+	cursor: pointer;
 }
 
 nav {
 	width:70%;
-	margin: 30px auto;
 	border: 1px solid black;
+	border-radius: 5px;	
+	position: absolute;
+	transform: translate(25%,100px);
+	height: 2.8rem;
+	padding: 0 2rem;
+}
+
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative;
+	height: 100%;
 }
 
 nav ul li {
-	display: inline-block;
-	border-right: 1px solid grey;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+nav ul li:not(:last-child) {
+ border-right: 0.5px solid grey;
+}
+
+nav ul li a {
+display: inline-block;
+color: white;
+}
+
+.fa-apple {
+	font-size:1.3rem;
+}
+.form-search {
+  padding:0 1rem;
+  position: relative;
+}
+
+.input-search {
+display: inline-block;
+border-radius: 10px;
+width: 7rem;
+height: 1.4rem;
+padding-left: 2rem;
+transition: all 0.5s;
+}
+
+.input-search:focus{
+width :12rem;
+border: 1px solid #eee;
+}
+
+.fa-search {
+position: absolute;
+left: 1.3rem;
+top: 0.2rem;
+}
+
+.image-text {
+	width: 80%;
+	position: absolute;
+	text-align: center;
+	transform: translate(170px, 270px);
+}
+
+.image-text h1 {
+	font-weight: 100;
+	font-size: 6rem;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.image-text h3 {
+	font-weight: 100;
+	font-size: 38px;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+
+.image-text h4 a {
+	color: white;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.image-text h4 a:hover {
+	text-decoration: underline;
 }
 
 /* main section */
@@ -49,28 +130,26 @@ nav ul li {
 	height:35vmin;
 }
 
-.img-1 {
-	background:url("img/promo_iphone5s.jpg");
+div[class*="img-"] {
 	background-size: cover;
 	background-position: bottom;
+}
+
+.img-1 {
+	background:url("img/promo_iphone5s.jpg");
+	
 }
 
 .img-2 {
 	background:url("img/promo_iphone5c.jpg");
-	background-size: cover;
-	background-position: bottom;
 }
 
 .img-3 {
 	background:url("img/promo_30_years.jpg");
-	background-size: cover;
-	background-position: bottom;
 }
 
 .img-4 {
 	background:url("img/promo_supplier_responsibility.jpg");
-	background-size: cover;
-	background-position: bottom;
 }
 /* footer */
 
@@ -84,7 +163,7 @@ footer {
 .sub-footer-flex {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 }
 
 .sub-footer-flex ul {
@@ -92,10 +171,19 @@ footer {
 	margin-left: 7px;
 }
 
-.sub-footer-flex ul li {
-	display: inline-flex;
-	margin-left: 0.5rem;
+.sub-footer-flex ul li:not(:last-child) {
 	border-right: 1px solid grey;
-	padding-right: 1rem;
-	font-size: 0.6rem; 
+	font-size: 0.7rem; 
+}
+
+.sub-footer-flex ul li {
+display: inline-flex;
+margin-left: 0.5rem;
+padding-right: 1rem;
+}
+
+.logo {
+	width: 1rem ;
+	height:  1rem ;
+	vertical-align: middle;
 }
