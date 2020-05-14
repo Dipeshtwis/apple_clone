@@ -2,6 +2,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+text-decoration: none;
 }
 
 main {
@@ -74,5 +75,27 @@ nav ul li {
 /* footer */
 
 footer {
+	width: 80%;
+	margin: 0 auto;
+	padding: 2rem;
+	font-size: 1rem;
+}
 
+.sub-footer-flex {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.sub-footer-flex ul {
+	list-style: none;
+	margin-left: 7px;
+}
+
+.sub-footer-flex ul li {
+	display: inline-flex;
+	margin-left: 0.5rem;
+	border-right: 1px solid grey;
+	padding-right: 1rem;
+	font-size: 0.6rem; 
 }
