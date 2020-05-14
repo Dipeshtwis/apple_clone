@@ -25,9 +25,10 @@ nav {
 	border: 1px solid black;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	position: relative;
-
 }
+
 nav ul li {
 	display: inline-block;
 	border-right: 1px solid grey;
@@ -35,55 +36,40 @@ nav ul li {
 
 /* main section */
 
-.hero {
-	background-size: cover;
-	width: 70%;
-	height:500px;
-	margin: 0 auto;
-	display: grid;
-	border :1px solid orange;
-	background-position:center;
-}
-
-.img-class {
-	width: 70%;
-	margin: 0 auto;
+.grid-img {
 	display: grid;
 	grid-template-columns: repeat(4,auto);
-	grid-gap: 10px;
 	border :1px solid red;
+	overflow: hidden;
 }
 
-.image-2{
-	background:url("img/promo_iphone5s.jpg") 50% 100% no-repeat;
-	background-size: cover;
-	border :1px solid brown;
-	height: 250px;
-	width: 250px;
+.grid-img-item {
+	width: 100%;
+	height:35vmin;
 }
 
-.image-3{
-	background:url("img/promo_iphone5c.jpg") 50% 100% no-repeat;
+.img-1 {
+	background:url("img/promo_iphone5s.jpg");
 	background-size: cover;
-	border :1px solid brown;
-	height: 250px;
-	width: 250px;
+	background-position: bottom;
 }
 
-.image-4{
-	background:url("img/promo_30_years.jpg") 50% 100% no-repeat;
+.img-2 {
+	background:url("img/promo_iphone5c.jpg");
 	background-size: cover;
-	border :1px solid brown;
-	height: 250px;
-	width: 250px;
+	background-position: bottom;
 }
 
-.image-5{
-	background:url("img/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
+.img-3 {
+	background:url("img/promo_30_years.jpg");
 	background-size: cover;
-	border :1px solid brown;
-	height: 250px;
-	width: 250px;
+	background-position: bottom;
+}
+
+.img-4 {
+	background:url("img/promo_supplier_responsibility.jpg");
+	background-size: cover;
+	background-position: bottom;
 }
 /* footer */
 
