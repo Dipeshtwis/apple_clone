@@ -24,7 +24,7 @@ section {
 	cursor: pointer;
 }
 
-nav {
+header {
 	width:70%;
 	border: 1px solid black;
 	border-radius: 5px;	
@@ -34,36 +34,37 @@ nav {
 	background-image: linear-gradient( to bottom, #a0a3a0,#525452 80%,#696b69);
 }
 
-nav ul {
+header ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
 }
 
-nav ul li {
+header ul li {
 	width: 100%;
 	height: 100%;
 	text-align: center;
 	padding-top: 0.7rem;
 }
 
-nav ul li:not(:last-child) {
+header ul li:not(:last-child) {
  border-right: 0.5px solid #5c5e5c;
 }
 
-nav ul li a {
+header ul li a {
 display: inline-block;
 color: white;
 }
 
-nav ul li:hover:not(:last-child) {
+header ul li:hover:not(:last-child) {
 	background-image: linear-gradient(to right, #545754, #3b3d3b);
 }
 
 .fa-apple {
 	font-size:1.3rem;
 }
+
 .form-search {
   padding:0 1rem;
   position: relative;
@@ -79,7 +80,7 @@ transition: all 0.5s;
 background-image: linear-gradient( to bottom, #a0a3a0,#696b69);
 }
 
-.input-search:focus{
+.input-search:focus {
 width :12rem;
 background-image: linear-gradient(to right,#f5f7f5, #f5faf5);
 }
