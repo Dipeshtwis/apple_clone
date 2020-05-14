@@ -1,51 +1,51 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 main {
-  width: 100%;
-  margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 section {
-  background: url("img/your_verse_hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  position: relative;
-  height: 700px;
-  cursor: pointer;
+	background: url("img/your_verse_hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+	height: 700px;
+	cursor: pointer;
 }
 
 header {
-  width: 70%;
-  border: 1px solid black;
-  border-radius: 5px;	
-  position: absolute;
-  transform: translate(25%, 100px);
-  height: 3.2rem;
-  background-image: linear-gradient(to bottom, #a0a3a0, #525452 80%,#696b69);
+	width: 70%;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	transform: translate(25%, 100px);
+	height: 3.2rem;
+	background-image: linear-gradient(to bottom, #a0a3a0, #525452 80%, #696b69);
 }
 
 header ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 
 header ul li {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-top: 0.7rem;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 0.7rem;
 }
 
 header ul li:not(:last-child) {
@@ -53,8 +53,8 @@ header ul li:not(:last-child) {
 }
 
 header ul li a {
-display: inline-block;
-color: white;
+	display: inline-block;
+	color: white;
 }
 
 header ul li:hover:not(:last-child) {
@@ -66,8 +66,8 @@ header ul li:hover:not(:last-child) {
 }
 
 .form-search {
-  padding: 0 1rem;
-  position: relative;
+	padding: 0 1rem;
+	position: relative;
 }
 
 .input-search {
@@ -77,7 +77,7 @@ header ul li:hover:not(:last-child) {
 	height: 1.8rem;
 	padding-left: 2rem;
 	transition: all 0.5s;
-	background-image: linear-gradient(to bottom, #a0a3a0,#696b69);
+	background-image: linear-gradient(to bottom, #a0a3a0, #696b69);
 }
 
 .input-search:focus {
@@ -142,7 +142,7 @@ div[class*="img-"] {
 }
 
 .img-1 {
-	background: url("img/promo_iphone5s.jpg");	
+	background: url("img/promo_iphone5s.jpg");
 }
 
 .img-2 {
@@ -178,7 +178,7 @@ footer {
 
 .sub-footer-flex ul li:not(:last-child) {
 	border-right: 1px solid grey;
-	font-size: 0.7rem; 
+	font-size: 0.7rem;
 }
 
 .sub-footer-flex ul li {
