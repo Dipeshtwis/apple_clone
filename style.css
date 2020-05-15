@@ -6,12 +6,9 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
-}
-
-main {
   width: 100%;
   margin: 0 auto;
+  font-family: "Lato", sans-serif;
 }
 
 section {
@@ -139,7 +136,6 @@ header ul li:hover:not(:last-child) {
   display: grid;
   grid-template-columns: repeat(4, auto);
   overflow: hidden;
-  cursor: pointer;
 }
 
 .grid-img-item {
@@ -171,10 +167,10 @@ div[class*="img-"] {
 /* footer */
 
 footer {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem;
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 .sub-footer-flex {
@@ -188,8 +184,8 @@ footer {
 }
 
 .logo {
-  width: 1rem;
-  height: 1rem;
+  width: 12px;
+  height: 12px;
   vertical-align: middle;
 }
 
