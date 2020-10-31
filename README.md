@@ -46,8 +46,17 @@ For the: [Github-link](https://github.com/Dipeshtwis/apple_clone/tree/feature-ap
 
 # Authors
 
-## Dipesh Kumar
+👤 **Dipesh Kumar**
 
-- Github: @Dipeshtwis
-- Twitter: @97deepeshkumar
-- Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+- Github: [@Dipeshtwis](https://github.com/Dipeshtwis)
+- Twitter: [@97deepeshkumar](https://twitter.com/97deepeshkumar)
+- Linkedin: [dipeshtwis](https://www.linkedin.com/in/dipeshtwis/)
+
+
+## 👍 Show your support
+
+Give a ⭐️ if you like this project!
+
+## :clap: Acknowledgements
+
+- Microverse: [@microverse](https://www.microverse.org/)
